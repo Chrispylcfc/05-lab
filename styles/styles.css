@@ -24,7 +24,7 @@ footer a:hover {
 /*
   Hides the radio buttons ('input' tags) themselves, but not
   their labels, which form the tabs.
-  
+
   Also sets styles for the section tags and hides them.
 */
 input,
@@ -70,14 +70,14 @@ label:last-child {
 }
 
 /*
-  The radio button label tags form the 'tabs' used to show the 
-  sections - when clicked, the input tag 'checked' attribute 
+  The radio button label tags form the 'tabs' used to show the
+  sections - when clicked, the input tag 'checked' attribute
   becomes true, so the section tags with IDs 'content1-3' can
   be targeted *in relation* to each radio button.
 
   This changes the display of specific section elements (with
-  IDs 'content1-3') from 'none' to 'block', but *only when* the 
-  associated and preceding (~) radio button becomes 'checked'. 
+  IDs 'content1-3') from 'none' to 'block', but *only when* the
+  associated and preceding (~) radio button becomes 'checked'.
 
   For the CSS3 ~ selector see:
   http://www.w3schools.com/cssref/sel_gen_sibling.asp
@@ -118,27 +118,58 @@ label:last-child {
 
 @keyframes fadeIn {
 
-  0% { 
+  0% {
   	opacity: 0;
   }
 
-  100% { 
+  100% {
   	opacity: 1;
   }
-  
+
 }
 
 
 /* --------- table styles below here --------- */
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+caption {
+  font-weight: bold;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
 
 
 /* --------- unordered list styles below here --------- */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 5px;
+}
 
 
 /* --------- definition list styles below here --------- */
+dt {
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+  text-decoration: underline;
+}
 
-
-
+dl {
+  padding: 2px;
+}
 
 /* --------- Basic responsive breakpoint --------- */
 
