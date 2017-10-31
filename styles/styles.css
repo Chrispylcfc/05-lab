@@ -171,34 +171,36 @@ dl {
   padding: 2px;
 }
 
-#content3 label {
-  display: inline;
-  box-sizing: border-box;
-  float: left;
-  width: 33.33%;
-  color: #888;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  background: #eee;
-  line-height: 3em;
-  border-right: 1px solid #444;
+#content3 input {
+  display: inline-block;
 }
 
-.form-field {
-  display: block;
+#content3 input[type="text"] {
+  width: 33.33%;
 }
+
+#content3 label {
+  display: inline;
+  width: 33.33%;
+  background: white;
+  border-right: none;
+}
+
+#content3 #paragraphs {
+	display: block;
+}
+
 
 .button {
   background-color: #008CBA; /* Blue */
+  box-sizing: border-box;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 12px;
   margin: 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
 }
 
 /* --------- Basic responsive breakpoint --------- */
