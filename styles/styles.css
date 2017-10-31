@@ -171,6 +171,36 @@ dl {
   padding: 2px;
 }
 
+#content3 label {
+  display: inline;
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  color: #888;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #eee;
+  line-height: 3em;
+  border-right: 1px solid #444;
+}
+
+.form-field {
+  display: block;
+}
+
+.button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 /* --------- Basic responsive breakpoint --------- */
 
 @media only screen and (min-width: 700px) {
